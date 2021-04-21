@@ -137,8 +137,8 @@ This is open-sourced software licensed under the [MIT license][9].
 [11]: https://github.com/ymind/ktor-banner/actions
 [20]: https://img.shields.io/github/v/release/ymind/ktor-banner
 [21]: https://github.com/ymind/ktor-banner/releases
-[30]: https://img.shields.io/maven-central/v/team.yi.rsql/ktor-banner
-[31]: https://search.maven.org/artifact/team.yi.rsql/ktor-banner
+[30]: https://img.shields.io/maven-central/v/team.yi.ktor/ktor-banner
+[31]: https://search.maven.org/artifact/team.yi.ktor/ktor-banner
 [40]: https://img.shields.io/badge/Semantic%20Versioning-2.0.0-brightgreen
 [41]: https://semver.org/
 [50]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
