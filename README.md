@@ -5,6 +5,7 @@
 [![Build Status][10]][11]
 [![GitHub release (latest by date)][20]][21]
 [![Maven Central][30]][31]
+[![Kotlin][70]][71]
 [![Semantic Versioning 2.0.0][40]][41]
 [![Conventional Commits][50]][51]
 [![GitHub][60]][61]
@@ -144,3 +145,5 @@ This is open-sourced software licensed under the [MIT license][9].
 [51]: https://conventionalcommits.org
 [60]: https://img.shields.io/github/license/ymind/ktor-banner
 [61]: https://github.com/ymind/ktor-banner/blob/main/LICENSE
+[70]: https://img.shields.io/badge/kotlin-1.4.32-blue.svg?logo=kotlin
+[71]: http://kotlinlang.org

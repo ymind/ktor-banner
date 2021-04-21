@@ -5,7 +5,7 @@ object Constants {
     const val gitUrl = "github.com"
     const val gitProjectUrl = "ymind/ktor-banner"
 
-    const val projectVersion = "0.1.0-SNAPSHOT"
+    const val projectVersion = "0.2.0"
 }
 
 plugins {
@@ -135,7 +135,7 @@ allprojects {
                 pom {
                     group = rootProject.group
                     name.set(project.name)
-                    description.set(project.description)
+                    description.set(rootProject.description)
                     url.set("https://${Constants.gitUrl}/${Constants.gitProjectUrl}")
                     inceptionYear.set("2021")
 
@@ -245,7 +245,6 @@ tasks {
         group = "gitlog"
 
         toRef = "main"
-        preRelease = "SNAPSHOT"
 
         issueUrlTemplate = "https://${Constants.gitUrl}/${Constants.gitProjectUrl}/issues/:issueId"
         commitUrlTemplate = "https://${Constants.gitUrl}/${Constants.gitProjectUrl}/commit/:commitId"
@@ -262,7 +261,6 @@ tasks {
 
         toRef = "main"
         derivedVersionMark = "NEXT_VERSION:=="
-        preRelease = "SNAPSHOT"
         commitLocales = gitlogLocaleProfiles
 
         outputs.upToDateWhen { false }

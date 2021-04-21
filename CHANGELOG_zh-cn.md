@@ -1,8 +1,8 @@
 # 更新日志
 
-## 0.1.0-SNAPSHOT (Unreleased, 2021-04-20)
+## 0.2.0 (2021-04-21)
 
 ### Others
 
-- initial commit ([24a249a5](https://github.com/ymind/ktor-banner/commit/24a249a51ebf3e99d0d5e78c1ba74ad689a68e59))
+- initial commit ([a0a5368e](https://github.com/ymind/ktor-banner/commit/a0a5368ecbbcef71c321336911bab7243db4ca09))
 
